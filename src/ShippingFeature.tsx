@@ -7,7 +7,7 @@ export default function ShippingFeature() {
       <br />
       <br />
       <div className="w-[95%] mx-auto">
-        <div className="grid grid-cols-4">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6">
           {/* Item */}
           <div className="flex">
             <i className="icon picon-truck text-[48px] text-[#B8690D] mr-4"></i>
