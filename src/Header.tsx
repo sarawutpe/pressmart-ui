@@ -14,7 +14,7 @@ export default function Header() {
       <div
         className="bg-auto bg-no-repeat bg-center w-full h-[500px]"
         style={{
-          backgroundImage: `url("/public/home-4-slider-1.jpg")`,
+          backgroundImage: `url("/home-4-slider-1.jpg")`,
           backgroundSize: "cover",
         }}
       >
