@@ -1,0 +1,79 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: "Poppins", sans-serif;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.animate-linear {
+  transition: all 0.4s linear 0s;
+}
+
+img.animate-3d {
+  transform: translate3d(0px, 0px, 0px);
+  -webkit-transform: translate3d(0px, 0px, 0px);
+}
+
+.icon {
+  font-family: "presslayouts-font";
+}
+
+a {
+  text-decoration: none;
+  transition: all 0.25s ease;
+}
+
+.icon:hover {
+  transition: all 0.25s ease;
+}
+
+.font-dancing-script {
+  font-family: "Dancing Script", cursive;
+}
+
+.overflow {
+  /* width: 290px; */
+  overflow: hidden;
+}
+.overflow img:hover {
+  -webkit-transform: scale(1.6);
+  -moz-transform: scale(1.6);
+  -o-transform: scale(1.6);
+  transform: scale(1.6);
+}
+.overflow img {
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  -ms-transition: all 0.4s ease-in-out;
+  width: 290px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+footer {
+  background-color: #f8f8f8;
+}
