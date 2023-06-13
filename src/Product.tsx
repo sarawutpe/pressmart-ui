@@ -182,9 +182,6 @@ export default function Product() {
                 <div
                   key={index}
                   className="p-[10px] group cursor-pointer hover:shadow-[0_0_10px_rgba(0,0,0,0.15)] transition"
-                  onMouseOver={() => {
-                    console.log("first");
-                  }}
                 >
                   <div className="relative overflow-hidden">
                     {product.discount ? (
